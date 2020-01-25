@@ -1,6 +1,6 @@
 import { einmal } from "./einmal";
 
-describe("createMutableOnce", () => {
+describe("einmal", () => {
   it("should work", () => {
     const mut = einmal<string>();
 
